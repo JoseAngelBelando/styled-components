@@ -3,8 +3,8 @@ import {StyledUser} from'./user.styles';
 const User = ({ name, email }) =>{
     return( 
         <StyledUser>
-            <h2>(name)</h2>
-            <p>(email)</p>
+            <h2>$name={name}</h2>
+            <p>$email={email}</p>
         </StyledUser>
     );
 };
