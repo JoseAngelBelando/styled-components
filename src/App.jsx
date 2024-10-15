@@ -1,6 +1,6 @@
 
 import Button from "./components/button/Button";
-import User from "./components/button/user/User";
+import User from "./components/user/User";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import { USERS } from "./constants/users";
 

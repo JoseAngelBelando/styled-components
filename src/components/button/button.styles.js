@@ -7,14 +7,16 @@ const StyledButton = styled.button`
   border-radius: ${({ $rounded }) => ($rounded ? '1rem' : 'none')};
   border: none;
 
-  @media (hover: hover) {
+  /* @media (hover: hover) {
     ${({ $hover }) =>
       $hover &&
-      `
-            &hover {
-            color: white;
-            }
-        `}
-  }
-`;
+    // `
+    //   &:hover{
+    //     color:white
+    //   }
+    // `}
+    
+}
+  } */
+
 export { StyledButton };
