@@ -8,16 +8,16 @@ const StyledButton = styled.button`
   border: none;
 `;
 
-/* @media (hover: hover) {
-    ${({ $hover }) =>
-      $hover &&
-    // `
-    //   &:hover{
-    //     color:white
-    //   }
-    // `}
-    
-}
-  } */
+//  @media (hover: hover) {
+//     ${({ $hover }) =>
+//       $hover &&
+//      `
+//        &:hover{
+//          color:white
+//        }
+//      `}
+
+// }
+//   } */
 
 export { StyledButton };

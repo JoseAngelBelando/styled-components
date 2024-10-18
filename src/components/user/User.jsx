@@ -1,4 +1,4 @@
-import {StyledUser} from'./styles/GlobalStyles.js';
+import {StyledUser} from'./user.styles';
 
 const User = ({ name, email }) =>{
     return( 
