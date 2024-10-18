@@ -6,8 +6,9 @@ const StyledButton = styled.button`
   padding: ${({ $padding }) => $padding};
   border-radius: ${({ $rounded }) => ($rounded ? '1rem' : 'none')};
   border: none;
+`;
 
-  /* @media (hover: hover) {
+/* @media (hover: hover) {
     ${({ $hover }) =>
       $hover &&
     // `
