@@ -2,7 +2,7 @@
 import Button from "./components/button/Button";
 import User from "./components/user/User";
 import { GlobalStyles } from "./styles/GlobalStyles";
-import { USERS } from "./constants/users";
+import { USERS } from "./constants/user";
 
 
 const App = ()=> {
